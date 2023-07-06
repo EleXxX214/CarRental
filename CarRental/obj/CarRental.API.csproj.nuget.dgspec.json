@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/elex/Desktop/CarRentals/zadanie/CarRental/CarRental.API.csproj": {}
+  },
+  "projects": {
+    "/Users/elex/Desktop/CarRentals/zadanie/CarRental.Core/CarRental.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elex/Desktop/CarRentals/zadanie/CarRental.Core/CarRental.Core.csproj",
+        "projectName": "CarRental.Core",
+        "projectPath": "/Users/elex/Desktop/CarRentals/zadanie/CarRental.Core/CarRental.Core.csproj",
+        "packagesPath": "/Users/elex/.nuget/packages/",
+        "outputPath": "/Users/elex/Desktop/CarRentals/zadanie/CarRental.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/elex/Desktop/CarRentals/zadanie/CarRental.Infrastructure/CarRental.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elex/Desktop/CarRentals/zadanie/CarRental.Infrastructure/CarRental.Infrastructure.csproj",
+        "projectName": "CarRental.Infrastructure",
+        "projectPath": "/Users/elex/Desktop/CarRentals/zadanie/CarRental.Infrastructure/CarRental.Infrastructure.csproj",
+        "packagesPath": "/Users/elex/.nuget/packages/",
+        "outputPath": "/Users/elex/Desktop/CarRentals/zadanie/CarRental.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/elex/Desktop/CarRentals/zadanie/CarRental.Core/CarRental.Core.csproj": {
+                "projectPath": "/Users/elex/Desktop/CarRentals/zadanie/CarRental.Core/CarRental.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0-preview.5.23280.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.5.23280.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0-preview.5.23280.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.5.23280.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/elex/Desktop/CarRentals/zadanie/CarRental/CarRental.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elex/Desktop/CarRentals/zadanie/CarRental/CarRental.API.csproj",
+        "projectName": "CarRental.API",
+        "projectPath": "/Users/elex/Desktop/CarRentals/zadanie/CarRental/CarRental.API.csproj",
+        "packagesPath": "/Users/elex/.nuget/packages/",
+        "outputPath": "/Users/elex/Desktop/CarRentals/zadanie/CarRental/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/elex/Desktop/CarRentals/zadanie/CarRental.Infrastructure/CarRental.Infrastructure.csproj": {
+                "projectPath": "/Users/elex/Desktop/CarRentals/zadanie/CarRental.Infrastructure/CarRental.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0-preview.5.23280.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
